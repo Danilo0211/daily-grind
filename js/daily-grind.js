@@ -25,7 +25,7 @@ const queryString = window.location.search;
 //output to console    
 console.log(queryString);
     
-//separate query string parameters
+//separate query string parameters, if it exists
 const urlParams = new URLSearchParams(queryString);
 
 
