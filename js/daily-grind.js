@@ -28,6 +28,8 @@ console.log(queryString);
 //separate query string parameters
 const urlParams = new URLSearchParams(queryString);
 
+myDay = urlParams.get();
+
 
 switch(myDay){
 
