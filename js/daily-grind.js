@@ -13,11 +13,11 @@
     name - the name of the coffee
 
 */
-let.myDate = new Date();
+let myDate = new Date();
 
-let.myDay = myDate.getDay("day");
+let myDay = myDate.getDay("day");
 
-let.today = "";
+let today = "";
 
 //use location object to access querystring (address bar)
 const queryString = window.location.search;
