@@ -15,7 +15,7 @@
 */
 let myDate = new Date();
 
-let myDay = myDate.getDay("");
+let myDay = myDate.getDay();
 
 let today = "";
 
