@@ -27,7 +27,7 @@ switch(myDay){
 
 }
 
-sonsole.log(coffee);
+console.log(coffee);
 
 alert(coffeeTemplate(coffee));
 
