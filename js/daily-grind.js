@@ -5,7 +5,7 @@ let.myDate = new Date();
 
 let.myDay = myDate.getDay();
 
-let.today = ""
+let.today = "";
 
 switch(myDay){
 
