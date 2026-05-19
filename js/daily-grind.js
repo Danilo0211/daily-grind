@@ -32,4 +32,21 @@ switch(myDay){
 
 sonsole.log(coffee);
 
-alert("today");
+alert(coffeeTemplate(coffee));
+
+document.getElementsById("coffee-cup").innerHTML = coffeeTemplate(coffee);
+
+function coffeeTemplate(coffee){
+    let myReturn = "";
+
+    myReturn += `
+   <p>
+            <img src="images/${coffee.pic}" alt="${coffee.pic}" id="coffee">
+            <strong>${coffee.day}Coffee Special:</strong> ${coffee.day} daily coffee special is <strong>${coffee.name}</strong>,
+            ${coffee.pic}as this is one of our top sellers!
+        </p>
+
+    `;
+
+    return myReturn;
+}
