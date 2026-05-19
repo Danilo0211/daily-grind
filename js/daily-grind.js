@@ -29,7 +29,7 @@ switch(myDay){
 
 console.log(coffee);
 
-alert(coffeeTemplate(coffee));
+//alert(coffeeTemplate(coffee));
 
 // add coffee to the page
 document.getElementsById("coffee-cup").innerHTML = coffeeTemplate(coffee);
