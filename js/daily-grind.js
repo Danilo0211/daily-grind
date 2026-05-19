@@ -32,7 +32,6 @@ sonsole.log(coffee);
 alert(coffeeTemplate(coffee));
 
 // add coffee to the page
-
 document.getElementsById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 
 //change background color at HTML element
