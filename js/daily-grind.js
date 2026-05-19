@@ -120,7 +120,7 @@ switch(myDay){
 
 }
 
-//console.log(coffee);
+console.log("coffee");
 
 //alert(coffeeTemplate(coffee));
 
