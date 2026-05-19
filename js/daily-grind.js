@@ -103,7 +103,7 @@ switch(myDay){
         };
  	break;
 
-    case 2:
+    case 6:
    		today = "Saturday";
         coffee = {
             name:"Pumpkin-Spice-Latte:",
