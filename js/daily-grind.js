@@ -1,6 +1,3 @@
-
-
-
 let.myDate = new Date();
 
 let.myDay = myDate.getDay();
@@ -34,7 +31,12 @@ sonsole.log(coffee);
 
 alert(coffeeTemplate(coffee));
 
+// add coffee to the page
+
 document.getElementsById("coffee-cup").innerHTML = coffeeTemplate(coffee);
+
+//change background color at HTML element
+document.querySelector("html").style.background = coffee.color;
 
 function coffeeTemplate(coffee){
     let myReturn = "";
