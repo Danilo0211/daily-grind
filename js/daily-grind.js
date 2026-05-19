@@ -125,7 +125,7 @@ switch(myDay){
 //alert(coffeeTemplate(coffee));
 
 // add coffee to the page
-document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate("coffee");
 
 //change background color at HTML element
 document.querySelector("html").style.background = coffee.color;
