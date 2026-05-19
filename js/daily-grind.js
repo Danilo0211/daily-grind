@@ -10,7 +10,7 @@ let.today = "";
 switch(myDay){
 
  	case 0:
-    		today =  "Sunday";
+    		today = "Sunday";
  	break;
 
  	case 2:
