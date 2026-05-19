@@ -32,7 +32,7 @@ switch(myDay){
             name:"Mocha:",
             pic:"mocha.jpg",
             alt:"Starting my coffee.",
-            color:"pink",
+            color:"blue",
             day:"Monday",
             desc:`I love my Mocha!` 
         };
@@ -44,11 +44,64 @@ switch(myDay){
             name:"Bubble Tea:",
             pic:"bubble-tea.jpg",
             alt:"A pic of a yummy bubble tea.",
-            color:"pink",
+            color:"orange",
             day:"Tuesday",
             desc:`I like me some bubble tea!` 
         };
  	break;
+
+    case 3:
+   		today = "Wednesday";
+        coffee = {
+            name:"Caramel-Latte:",
+            pic:"caramel-latte.jpg",
+            alt:"I love my C&L",
+            color:"pink",
+            day:"Wednesday",
+            desc:`I like to have a Caramel Latte!` 
+        };
+ 	break;
+
+    case 4:
+   		today = "Thursday";
+        coffee = {
+            name:"Cold-Brew:",
+            pic:"cold-brew.jpg",
+            alt:"Almost my Friday;Yeah!!.",
+            color:"red",
+            day:"Thursday",
+            desc:`I need my Cold Brew NOW!!` 
+        };
+ 	break;
+
+    case 5:
+   		today = "Friday";
+        coffee = {
+            name:"Frappacino:",
+            pic:"frappacino.jpg",
+            alt:"Happy Hour; Free Coffee.",
+            color:"yellow",
+            day:"Friday",
+            desc:`Nice weekend ahead!` 
+        };
+ 	break;
+
+    case 2:
+   		today = "Saturday";
+        coffee = {
+            name:"Pumpkin-Spice-Latte:",
+            pic:"pumpkin-spice-latte.jpg",
+            alt:"My Pumpkin Latte; Yeah.",
+            color:"green",
+            day:"Saturday",
+            desc:`My relaxing Pumpkin Spice Latte` 
+        };
+ 	break;
+
+
+
+
+
 
  	default:
     	today = "Something went wrong!";
