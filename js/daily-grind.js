@@ -29,12 +29,12 @@ switch(myDay){
     case 1:
    		today = "Monday";
         coffee = {
-            name:"Bubble Tea:",
-            pic:"bubble-tea.jpg",
-            alt:"A pic of a yummy bubble tea.",
+            name:"Mocha:",
+            pic:"mocha.jpg",
+            alt:"Starting my coffee.",
             color:"pink",
-            day:"Tuesday",
-            desc:`I like me some bubble tea!` 
+            day:"Monday",
+            desc:`I love my Mocha!` 
         };
  	break;
 
