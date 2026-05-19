@@ -141,11 +141,9 @@ function coffeeTemplate(coffee){
 
     myReturn += `
    <p>
-            <img src="images/${coffee.pic}" alt="${coffee.pic}" id="coffee">
-            <strong>${coffee.day}Coffee Special:</strong> ${coffee.day} daily coffee special is <strong>${coffee.name}</strong>,
-            ${coffee.pic}as this is one of our top sellers!
+            <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
+            <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s coffee special is <strong>${coffee.name}</strong> ${coffee.desc}
         </p>
-
     `;
 
     return myReturn;
