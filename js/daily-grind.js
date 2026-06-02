@@ -31,11 +31,11 @@ const urlParams = new URLSearchParams(queryString);
 
     // retreved data from querystring
 
-if (myDay = urlParams.has("day")) {
+if (myDay == urlParams.has("day")) {
         myDay = urlParams.get("day");
 }
 // turn string into integer 
-myDay = parseInt("myDay");
+myDay = parseInt(myDay);
 
 switch(myDay){
 
