@@ -128,7 +128,7 @@ alert(coffeeTemplate(coffee));
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 
 //change background color at HTML element
-document.querySelector("html").style.background = coffee.color;
+document.querySelector("html").style.backgroundColor = coffee.color;
 
 // change strongs tags in template to our colors
 document.querySelectorAll("#coffee-cup strong").forEach(el => {
