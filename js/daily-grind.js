@@ -120,9 +120,7 @@ switch(myDay){
         };
  	break;
 
- 	default:
-    	today = "Something went wrong!";
-
+	
 }
 console.log("coffee");
 
