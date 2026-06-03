@@ -118,9 +118,7 @@ switch(myDay){
             day:"Saturday",
             desc:`My relaxing Pumpkin Spice Latte` 
         };
- 	break;
-
-	
+ 	break;	
 }
 console.log("coffee");
 
